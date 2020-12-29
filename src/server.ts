@@ -21,7 +21,7 @@ app.use("/graphql", graphqlHTTP({
   graphiql: true
 }))
 
-mongoose.connect('mongodb+srv://ranganathmd:uOgKDhu9ZAhmOrnv@developeracc.xzfvx.mongodb.net/graphqlcm?retryWrites=true&w=majority', {
+mongoose.connect('db string goes here', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true,
